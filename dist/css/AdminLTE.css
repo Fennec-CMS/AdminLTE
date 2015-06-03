@@ -11,7 +11,9 @@
  */
 html,
 body {
-  min-height: 100%;
+  display: block;
+  height: 100%;
+  position: relative;
 }
 .layout-boxed html,
 .layout-boxed body {
@@ -137,6 +139,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+
 /* H1 - H6 font */
 h1,
 h2,
